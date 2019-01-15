@@ -17,16 +17,16 @@
   </dependencies>
   <distributionManagement>
     <repository>
-        <id>central</id>
-        <name>plugins-releases</name>
-        <url>http://ip-172-31-20-94.ap-south-1.compute.internal:8083/artifactory/plugins-release-local</url>
+        <id>jenkinswar-releases</id>
+        <name>jenkinswar-releases</name>
+        <url>http://ec2-13-233-186-62.ap-south-1.compute.amazonaws.com:8083/nexus/content/repositories/jenkinswar-releases/</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
-        <name>plugins-snapshot</name>
-        <url>http://ip-172-31-20-94.ap-south-1.compute.internal:8083/artifactory/plugins-snapshot-local</url>
+        <id>JenkinsWar-Snapshots</id>
+        <name>JenkinsWar-Snapshots</name>
+        <url>http://ec2-13-233-186-62.ap-south-1.compute.amazonaws.com:8083/nexus/content/repositories/jenkinswar-releases/</url>
     </snapshotRepository>
-</distributionManagement>
+  </distributionManagement>
   <build>
     <finalName>JenkinsWar</finalName>
   </build>
