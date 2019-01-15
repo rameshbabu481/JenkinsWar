@@ -22,9 +22,9 @@
         <url>http://ec2-13-233-186-62.ap-south-1.compute.amazonaws.com:8083/nexus/content/repositories/jenkinswar-releases/</url>
     </repository>
     <snapshotRepository>
-        <id>JenkinsWar-Snapshots</id>
-        <name>JenkinsWar-Snapshots</name>
-        <url>http://ec2-13-233-186-62.ap-south-1.compute.amazonaws.com:8083/nexus/content/repositories/JenkinsWar-Snapshots/</url>
+        <id>jenkinswar-snapshot</id>
+        <name>jenkinswar-snapshot</name>
+        <url>http://ec2-13-233-186-62.ap-south-1.compute.amazonaws.com:8083/nexus/content/repositories/jenkinswar-snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
